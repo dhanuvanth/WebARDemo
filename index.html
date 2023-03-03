@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./app.css" />
+    <script src="../../libs/mindar/mindar-image-three.prod.js"></script>
+    <script src="./main.js" type="module"></script>
+    <style>
+      html,
+      body {
+        position: relative;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+      .button {
+        background-color: #4caf50; /* Green */
+        border: none;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
+      .button4 {
+        border-radius: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container"></div>
+    <div id="scanning" class="hidden">
+      <div class="inner">
+        <img src="https://cdn.glitch.global/8c9d2da5-26fc-49fa-88cb-26e3b58f40da/photo1677833195.jpeg?v=1677838469476" />
+        <div class="scanline"></div>
+      </div>
+    </div>
+  </body>
+</html>
